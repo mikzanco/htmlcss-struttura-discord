@@ -42,3 +42,39 @@ header .menu ul li{
   padding: 10% 10%;
   text-align: center;
 }
+
+.second-container{
+  display: flex;
+  background-color: white;
+  height: 730px;
+}
+
+.second-container .img{
+  width: 840px;
+  background-color: red
+}
+
+.second-container .text{
+  background-color: rgba(0, 255, 0);
+  text-align: center;
+  max-width: calc(100% - 840px);
+  padding: 10%;
+}
+
+.third-container{
+  display: flex;
+  background-color: gray;
+  height: 730px;
+}
+
+.third-container .text{
+  background-color: rgba(0, 255, 0);
+  text-align: center;
+  max-width: calc(100% - 840px);
+  padding: 10%;
+}
+
+.third-container .img{
+  width: 840px;
+  background-color: red
+}
