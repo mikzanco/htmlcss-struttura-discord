@@ -83,6 +83,69 @@ h2{
   background-color: red
 }
 
+main .fourth-section{
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+}
 
+main .fourth-section button{
+  padding: 20px;
+  background-color: rgb(142,161,225) ;
+  color: white;
+  border-radius: 10%;
+}
 
+footer section{
+  display: flex;
+  /* margin: 2% 10%; */
+  background-color: rgb(35,39,42);
+  /* margin: 10px;
+  padding: 10px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .logo{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  width: 20%;
+}
+
+footer .logo .indirizzo{
+  font-size: 0.8rem;
+}
+
+footer .menu{
+  padding-right: 10px;
+  width: 20%;
+}
+
+footer .logo h3{
+  color: rgb(114,137,218);
+  font-size: 30px;
+}
+
+footer .menu ul{
+  list-style: none;
+}
+
+footer .menu h3{
+  color: rgb(114,137,218);
+  
+}
+
+footer .menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+footer .menu a:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+hr
 
