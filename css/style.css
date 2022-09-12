@@ -43,6 +43,10 @@ header .menu ul li{
   text-align: center;
 }
 
+h2{
+  font-size: 30px;
+}
+
 .second-container{
   display: flex;
   background-color: white;
@@ -78,3 +82,7 @@ header .menu ul li{
   width: 840px;
   background-color: red
 }
+
+
+
+
