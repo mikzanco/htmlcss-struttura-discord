@@ -17,7 +17,7 @@ header{
   display: flex;
   background-color: rgb(49,97,224);
   /*da togliere*/
-  height: 30px; 
+  height: 70px; 
   padding: 10px;
   justify-content: space-around;
   align-items: center;
@@ -30,4 +30,15 @@ header .menu ul{
 
 header .menu ul li{
   padding: 10px;
+}
+
+.container .first-container{
+  background-color: rgb(49,97,224);
+  text-align: center;
+  height: 550px;
+}
+
+.first-container h1{
+  padding: 10% 10%;
+  text-align: center;
 }
