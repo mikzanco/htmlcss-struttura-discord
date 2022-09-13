@@ -1,3 +1,5 @@
+/* GENERAL */
+
 *{
   margin: 0;
   padding: 0;
@@ -10,18 +12,34 @@
 }
 
 body{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+ .container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+
+ /* HEADER */
 
 header{
   display: flex;
   background-color: rgb(49,97,224);
   /*da togliere*/
-  height: 70px; 
-  padding: 10px;
-  justify-content: space-around;
+  height: 80px; 
+  /* padding: 10px; */
+  
+ justify-content: center;
+}
+
+
+header .container{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
+
 
 header .menu ul{
   display: flex;
@@ -32,14 +50,25 @@ header .menu ul li{
   padding: 10px;
 }
 
-.container .first-container{
+/* MAIN */
+
+.container .jumbotron{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: rgb(49,97,224);
-  text-align: center;
+  /* text-align: center; */
   height: 550px;
 }
 
-.first-container h1{
-  padding: 10% 10%;
+.jumbotron .content{
+  max-width: 880px;
+  padding: 10%;
+}
+
+.jumbotron h1{
+  /* padding: 10% 10%; */
   text-align: center;
 }
 
@@ -47,25 +76,25 @@ h2{
   font-size: 30px;
 }
 
-.second-container{
+.second-container .container{
   display: flex;
   background-color: white;
   height: 730px;
 }
 
 .second-container .img{
-  width: 840px;
+  width: 65%;
   background-color: red
 }
 
 .second-container .text{
   background-color: rgba(0, 255, 0);
   text-align: center;
-  max-width: calc(100% - 840px);
+  max-width: 35%;
   padding: 10%;
 }
 
-.third-container{
+.third-container .container{
   display: flex;
   background-color: gray;
   height: 730px;
@@ -74,29 +103,37 @@ h2{
 .third-container .text{
   background-color: rgba(0, 255, 0);
   text-align: center;
-  max-width: calc(100% - 840px);
+  max-width: calc(100% - 65%);
   padding: 10%;
 }
 
 .third-container .img{
-  width: 840px;
+  width: 65%;
   background-color: red
 }
 
-main .fourth-section{
+/* .fourth-section .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+main .fourth-section .container{
   background-color: white;
   text-align: center;
   padding: 30px;
 }
 
 main .fourth-section button{
-  padding: 20px;
+  /* padding: 20px; */
   background-color: rgb(142,161,225) ;
   color: white;
   border-radius: 10%;
 }
 
-footer section{
+/* FOOTER */
+
+footer .container{
   display: flex;
   /* margin: 2% 10%; */
   background-color: rgb(35,39,42);
@@ -147,5 +184,8 @@ footer .menu a:hover{
   color: red;
 }
 
-hr
-
+.footer-bottom{
+  display: flex;
+  padding: 5%;
+  justify-content: space-between;
+}
